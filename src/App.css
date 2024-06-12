@@ -39,7 +39,7 @@ h2 {
 }
 
 #pdf {
-  max-width: 1280px;
+  max-width: min(100%, 1280px);
 }
 
 #pdfnav li {
