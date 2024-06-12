@@ -1,0 +1,59 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  user-select: none;
+}
+
+#icon {
+  /* animation: rot8 5s infinite;
+  transition: none; */
+}
+
+@keyframes rot8 {
+  100% {
+    transform: rotate(360deg);
+    filter: hue-rotate(360deg);
+  }
+  0% {
+    filter: hue-rotate(0deg);
+  }
+}
+
+h1 {
+  padding: 0;
+  margin-bottom: -5px;
+  margin-top: 5px;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 1.25em;
+}
+
+#links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+#pdf {
+  max-width: 1280px;
+}
+
+#pdfnav li {
+  list-style-type: none;
+}
+
+#pdfnav ul {
+  width: 100%;
+}
+
+#pdfnav ul {
+  justify-content: center;
+  gap: 10px;
+  display: flex;
+  width: 100%;
+  padding: 0;
+}
