@@ -3,7 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  user-select: none;
+  /* user-select: none; */
 }
 
 /* #icon {
@@ -23,11 +23,12 @@
 
 h1 {
   padding: 0;
-  margin-bottom: -5px;
+  margin-bottom: 20px;
   margin-top: 5px;
 }
 
 h2 {
+  margin-top: 10px;
   font-weight: 400;
   font-size: 1.25em;
 }
@@ -39,6 +40,7 @@ h2 {
 }
 
 #pdf {
+  margin-top: 15px;
   max-width: min(100%, 1280px);
 }
 
