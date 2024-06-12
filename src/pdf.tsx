@@ -1,11 +1,11 @@
-import React, { useState, useRef } from "react";
+import { useState, useRef } from "react";
 import { usePdf } from "@mikecousins/react-pdf";
 
 export const MyPdfViewer = () => {
   const [page, setPage] = useState(1);
   const canvasRef = useRef(null);
 
-  const { pdfDocument, pdfPage } = usePdf({
+  const { pdfDocument } = usePdf({
     file: "/cv.pdf",
     page,
     canvasRef,

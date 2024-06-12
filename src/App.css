@@ -6,10 +6,10 @@
   user-select: none;
 }
 
-#icon {
-  /* animation: rot8 5s infinite;
-  transition: none; */
-}
+/* #icon {
+  animation: rot8 5s infinite;
+  transition: none;
+} */
 
 @keyframes rot8 {
   100% {
